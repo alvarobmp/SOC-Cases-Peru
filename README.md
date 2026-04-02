@@ -66,9 +66,8 @@ Este repositorio documenta casos de seguridad reales con:
 ## Autor
 
 **Álvaro Martínez Pachas**
-Especialista en Infraestructura TI | Analista SOC en formación
-10 años de experiencia en infraestructura crítica — banca y telecomunicaciones
-
+Especialista en Infraestructura TI | Analista SOC en formación |
+10 años de experiencia TI
 📧 alvarobasiliosmart@gmail.com
 🔗 [LinkedIn](https://linkedin.com/in/tu-perfil)
 🐙 [GitHub](https://github.com/alvarobmp)
