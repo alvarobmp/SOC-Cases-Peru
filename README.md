@@ -25,11 +25,11 @@ Este repositorio documenta casos de seguridad reales con:
 
 | # | Caso | Técnica | Severidad | Leyes |
 |---|------|---------|-----------|-------|
-| 01 | [Webshell y Escalada de Privilegios](./caso-01-webshell-escalada-privilegios/reporte.md) | Webshell / Command Execution / Lateral Movement | 🔴 CRÍTICA | 29733, 30096 |
-| 02 | [Session Hijacking y Movimiento Lateral](./caso-02-session-hijacking-movimiento-lateral/reporte.md) | Session Hijacking / Valid Accounts / Exfiltration | 🔴 CRÍTICA | 29733, 30096 |
-| 03 | [Low and Slow Attack](./caso-03-low-and-slow-attack/reporte.md) | Scheduled Task / Low and Slow Exfiltration | 🔴 CRÍTICA | 29733, 30096 |
-| 04 | [Cyber Espionaje e Insider Threat](./caso-04-cyber-espionaje-insider-threat/reporte.md) | TOR Proxy / Valid Accounts / Data Collection | 🔴 CRÍTICA | 29733, 30096, 26702 |
-| 05 | [Botnet y Campaña de Phishing](./caso-05-botnet-phishing-correlacion/reporte.md) | LotL Malware / Botnet / Phishing / Typosquatting | 🔴 CRÍTICA | 29733, 30096, 26702, 29571 |
+| 01 | [Webshell y Escalada de Privilegios](./caso-01-webshell-escalada-privilegios-reporte.md) | Webshell / Command Execution / Lateral Movement | 🔴 CRÍTICA | 29733, 30096 |
+| 02 | [Session Hijacking y Movimiento Lateral](./caso-02-session-hijacking-movimiento-lateral-reporte.md) | Session Hijacking / Valid Accounts / Exfiltration | 🔴 CRÍTICA | 29733, 30096 |
+| 03 | [Low and Slow Attack](./caso-03-low-and-slow-attack-reporte.md) | Scheduled Task / Low and Slow Exfiltration | 🔴 CRÍTICA | 29733, 30096 |
+| 04 | [Cyber Espionaje e Insider Threat](./caso-04-cyber-espionaje-insider-threat-reporte.md) | TOR Proxy / Valid Accounts / Data Collection | 🔴 CRÍTICA | 29733, 30096, 26702 |
+| 05 | [Botnet y Campaña de Phishing](./caso-05-botnet-phishing-correlacion-reporte.md) | LotL Malware / Botnet / Phishing / Typosquatting | 🔴 CRÍTICA | 29733, 30096, 26702, 29571 |
 
 ---
 
