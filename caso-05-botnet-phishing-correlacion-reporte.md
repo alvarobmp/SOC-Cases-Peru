@@ -35,7 +35,7 @@ Un grupo de computadoras internas fue infectado por software malicioso no autori
 |--------|----------|------|-------------|----------------|
 | #1 | Gómez | 09:15 AM | PC de rlopez va lenta. Sin malware detectado | **Cerrado** — Hardware |
 | #2 | Torres | 11:42 AM | Tráfico inusual en switch piso 3, 02:00-04:00 AM | Abierto — Sin resolución |
-| #3 | Mendoza | 03:30 PM | Cliente recibe correo de banco-segurobcp.com | Abierto — Derivado a Marketing |
+| #3 | Mendoza | 03:30 PM | Cliente recibe correo de banco-seguro.com | Abierto — Derivado a Marketing |
 
 ---
 
@@ -54,9 +54,9 @@ Cada noche, 02:00-04:00 AM:
 Botnet activada en horario de mínima vigilancia SOC
 
 Actividad nocturna (logs DNS):
-192.168.3.45 (rlopez) → banco-segurobcp.com      847 consultas/noche
-192.168.3.45 (rlopez) → mail.banco-segurobcp.com  423 consultas/noche
-192.168.3.45 (rlopez) → cdn.banco-segurobcp.com   234 consultas/noche
+192.168.3.45 (rlopez) → banco-seguro.com      847 consultas/noche
+192.168.3.45 (rlopez) → mail.banco-seguro.com  423 consultas/noche
+192.168.3.45 (rlopez) → cdn.banco-seguro.com   234 consultas/noche
 
 Mismo día:
 Clientes externos reciben correos phishing
@@ -69,14 +69,14 @@ aparentemente enviados por el banco
 
 ### Logs DNS — PC de rlopez (últimas 72 horas)
 ```
-02:00-04:00 AM — 192.168.3.45 → banco-segurobcp.com      x847
-02:00-04:00 AM — 192.168.3.45 → mail.banco-segurobcp.com  x423
-02:00-04:00 AM — 192.168.3.45 → cdn.banco-segurobcp.com   x234
+02:00-04:00 AM — 192.168.3.45 → banco-seguro.com      x847
+02:00-04:00 AM — 192.168.3.45 → mail.banco-seguro.com  x423
+02:00-04:00 AM — 192.168.3.45 → cdn.banco-seguro.com   x234
 ```
 
 ### Dominio fraudulento analizado
 ```
-Dominio:    banco-segurobcp.com
+Dominio:    banco-seguro.com
 Registros:  SPF  ✓ configurado
             DKIM ✓ configurado
             DMARC✓ configurado
@@ -126,7 +126,7 @@ Malware se replica a PCs del piso 3 via red interna
 Switch muestra tráfico inusual → Ticket sin resolución
 
 FASE 3 — INFRAESTRUCTURA
-Atacante registra banco-segurobcp.com
+Atacante registra banco-seguro.com
 Configura SPF/DKIM/DMARC para legitimidad
 Replica contenido visual del banco
 
@@ -160,7 +160,7 @@ Objetivo: capturar credenciales de banca online
 | Phishing | T1566 | Correos fraudulentos a clientes del banco |
 | LotL Malware | T1587.001 | Malware que evade antivirus usando herramientas del SO |
 | Botnet | T1584.005 | Red de PCs infectadas bajo control del atacante |
-| Typosquatting | T1583.001 | Dominio banco-segurobcp.com similar al oficial |
+| Typosquatting | T1583.001 | Dominio banco-seguro.com similar al oficial |
 | Email Spoofing | T1598 | SPF/DKIM/DMARC configurados para parecer legítimo |
 
 ---
@@ -187,7 +187,7 @@ Objetivo: capturar credenciales de banca online
 ## 11. Acciones Tomadas
 
 - [x] Aislamiento de PCs infectadas del piso 3
-- [x] Bloqueo de dominio `banco-segurobcp.com` en firewall y DNS
+- [x] Bloqueo de dominio `banco-seguro.com` en firewall y DNS
 - [x] Preservación de logs para investigación forense y denuncia penal
 - [x] Notificación a área legal y gerencia general
 - [x] Correlación de los tres tickets e identificación del ataque
